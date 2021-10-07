@@ -108,16 +108,16 @@ const DetailInfoPage = ({ match }) => {
 
   useEffect(() => {
     // const fetchContents = async () => {
-    // 	try {
-    // 		setContent(null);
-    // 		setError(null);
+    //     try {
+    //         setContent(null);
+    //         setError(null);
     API.get(`api/jobs/${datakey}`).then((response) => {
       console.log(response.status);
       setContent(response.data);
     });
-    // 	} catch (e) {
-    // 		setError(e);
-    // 	}
+    //     } catch (e) {
+    //         setError(e);
+    //     }
     // }
     // fetchContents();
   }, []);
@@ -146,15 +146,15 @@ const DetailInfoPage = ({ match }) => {
           </Box>
           {/* Category */}
           {/* <Box
-						gridArea="nav"
-						background="light-2"
-						width="medium"
-						align="center"
-						style={{marginTop: 75}}
-					>
-						<Title>카테고리</Title>
-						<Category categoryList={DUMMY_DATA_CATEGORY} />
-					</Box> */}
+                        gridArea="nav"
+                        background="light-2"
+                        width="medium"
+                        align="center"
+                        style={{marginTop: 75}}
+                    >
+                        <Title>카테고리</Title>
+                        <Category categoryList={DUMMY_DATA_CATEGORY} />
+                    </Box> */}
           {/* detailPage */}
           <Box
             overflow="scroll"
