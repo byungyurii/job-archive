@@ -49,7 +49,9 @@ $ npm i && npm start
 
 ## DB & API Specification
 #### DB
+https://marmalade-newsboy-581.notion.site/DB-Spec-6a83b5406dc94ce3ae6a1b71bcfbd65b
 #### API
+https://marmalade-newsboy-581.notion.site/API-Spec-9b26946665df4d0b99e6a5ceeb155392
 
 ## Contributers
 |FRONTEND|장효신([**@hyosin-Jang**](https://github.com/hyosin-Jang))|김주현([**@corinthionia**](https://github.com/corinthionia))|변규리([**@byungyurii**](https://github.com/byungyurii))|
@@ -58,4 +60,4 @@ $ npm i && npm start
 
 |BACKEND|김하연([**@haayun**](https://github.com/haayun))|공지나([**@kongjn**](https://github.com/kongjn))|조서영([**@stellajo99**](https://github.com/stellajo99))|이희원([**@Tina-223**](https://github.com/Tina-223))|
 | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
-|DETAIL| 채용공고 관련 REST API 구현 | 사용자 관련 REST API 구현 | 데이터베이스 | 데이터베이스 |
+|DETAIL| 채용공고 관련 REST API 구현 | 사용자 관련 REST API 구현 | 데이터베이스 | 데이터베이스 스키마, 오픈 API를 활용하여 데이터베이스 구축 |
