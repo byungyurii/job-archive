@@ -135,7 +135,8 @@ const Category= ({categoryList, category_chg, searchBar, setData})=> {
 
 
 	const dispatch = useDispatch();
-
+	  if (searchBar === undefined)
+	  	searchBar = "";
   // 토큰 전달
   const _addTag = () => dispatch(addTag());
 	const _removeTag = () => dispatch(removeTag());

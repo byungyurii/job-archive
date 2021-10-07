@@ -2,9 +2,12 @@ import React from "react";
 import CardBoard from "../Card/CardBoard";
 import "../../style/main.css";
 
-function CategoryCard(jobs, islogin) {
+function CategoryCard(props) {
   return (
-        <CardBoard jobs={jobs} islogin={islogin} />
+    <div>
+      {console.log(props.jobs)}
+          <CardBoard jobs={props.jobs} islogin={props.islogin} />
+    </div>
   );
 }
 

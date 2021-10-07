@@ -216,7 +216,7 @@ const CategoryPage = ({match}) =>{
             background="light-2"
             style={{marginTop: 75}}
           >
-            <CategoryCardContainer category_chg = {category_chg} tagNum = {tagNum} searchBar= {searchBar} jobs={jobs}/>
+            <CategoryCardContainer category_chg = {category_chg} tagNum = {tagNum} searchBar= {searchBar} jobs={ex}/>
           </Box>
       </Layout>
     </div>
